@@ -9,7 +9,7 @@ public class TelephoneStringBuilder {
 	public final static int FORMATTED_LENGTH = 13;
 	public final static int UNFORMATTED_LENGTH = 10;
 	
-	/** Th isFormatted method determine whether a string is properly formatted as a U.S. telephone
+	/** This Formatted method determine whether a string is properly formatted as a U.S. telephone
 	 * number in the following format:
 	 * (XXX)XXX-XXXX
 	 * @param str
