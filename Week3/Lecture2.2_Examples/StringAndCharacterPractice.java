@@ -73,7 +73,7 @@ public class StringAndCharacterPractice {
 		// Practice-3: how to remove certain characters from a string?
 		for (String s : testStrings ){
 			System.out.println("String: \"" + s + "\"");
-			System.out.println("after remove: String: \"" + s.replaceAll("[A-Z\s+]", "") + "\"");
+			System.out.println("after remove: String: \"" + s.replaceAll("[A-Z\\s+]", "") + "\"");
 		}
 
 
