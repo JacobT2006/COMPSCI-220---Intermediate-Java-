@@ -24,6 +24,8 @@ public class TelephoneTestStringBuilder {
 		
 		//Unformat the phone number.
 		System.out.println("Unformatted: " + TelephoneStringBuilder.unformat(phoneNumber));
+		
+		keyboard.close();
 
 	}
 
