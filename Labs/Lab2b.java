@@ -18,7 +18,7 @@ public class Lab2b {
 
         //Final output
         System.out.println("(" + one + ")" + two + "-" + three);
-
+        userInput.close();
     }
 
 }
