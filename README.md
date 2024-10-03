@@ -12,3 +12,8 @@ This repository showcases my work from the Intermediate class taught by Professo
    - Description: This project is designed in a way to apply specific knowledge and to exercise your creative ability to integrate different knowledge to solve a problem.
    - Technologies: Git, IDE's such as Eclipse, and Java.
    - Link: [https://github.com/JacobT2006/COMPSCI-220---Intermediate-Java-/tree/main/Project](#)
+
+## Technologies Used
+
+- Programming Languages: Java
+- Tools: Git, GitHub, Visual Studio Code, Eclipse, etc.
