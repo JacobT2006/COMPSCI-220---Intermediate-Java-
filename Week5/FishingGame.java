@@ -71,7 +71,7 @@ public class FishingGame {
 		 else
 			System.out.println("You did not play the game.");
 		
-		
+		keyboard.close();
 	
 	}
 	
