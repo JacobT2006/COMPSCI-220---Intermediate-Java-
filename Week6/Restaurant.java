@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-import w6.Reviews;
+//import w6.Reviews;
 
 public class Restaurant {
    private String name;
