@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class DivideByZeroWithExceptionHandling
 {
    // demonstrates throwing an exception when a divide-by-zero occurs
-   public static int quotient(int numerator, int denominator) {//throws ArithmeticException { //use throws cause to declare the type of exceptions that may throw from this method
+   public static int quotient(int numerator, int denominator)  throws ArithmeticException { //use throws cause to declare the type of exceptions that may throw from this method
 	 //add throws cause is optional, but a good programming practice for unchecked exception 
 	   //add or without adding throws clause, both ways work here!
        if (denominator > 100) //if requires the denominator must be an integer no greater than 100 
