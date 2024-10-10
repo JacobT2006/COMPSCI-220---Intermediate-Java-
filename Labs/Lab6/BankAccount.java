@@ -5,6 +5,9 @@
 public class BankAccount
 {  
    private double balance;
+   //transaction and fee variables
+   private int transaction;
+   private double fee;
 
    /**
       Constructs a bank account with a zero balance.
@@ -30,6 +33,11 @@ public class BankAccount
    public void deposit(double amount)
    {  
       balance = balance + amount;
+      transaction++;
+      if(transaction > 5){
+         balance--;
+         fee++;
+      }
    }
 
    /**
@@ -47,6 +55,11 @@ public class BankAccount
       else
       {
          balance = balance - amount;
+      }
+      transaction++;
+      if(transaction > 5){
+         balance--;
+         fee++;
       }
    }
 
@@ -68,5 +81,14 @@ public class BankAccount
    {   
       return balance;
    }
+   // transaction method
+   public int transactions(){
+      return transaction;
+   }
+   //fee method 
+   public double fee(){
+      return fee;
+   }
+
 }
 
